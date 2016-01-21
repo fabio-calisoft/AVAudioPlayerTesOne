@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E58F56861C41E6DD00032A1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58F56851C41E6DD00032A1E /* AppDelegate.swift */; };
+		E58F56881C41E6DD00032A1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58F56871C41E6DD00032A1E /* ViewController.swift */; };
+		E58F568B1C41E6DD00032A1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E58F56891C41E6DD00032A1E /* Main.storyboard */; };
+		E58F568D1C41E6DD00032A1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E58F568C1C41E6DD00032A1E /* Assets.xcassets */; };
+		E58F56901C41E6DD00032A1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E58F568E1C41E6DD00032A1E /* LaunchScreen.storyboard */; };
+		E58F56981C41E87600032A1E /* HallOfTheMountainKing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E58F56971C41E87600032A1E /* HallOfTheMountainKing.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E58F56821C41E6DD00032A1E /* AVAudioPlayerTesOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVAudioPlayerTesOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E58F56851C41E6DD00032A1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E58F56871C41E6DD00032A1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E58F568A1C41E6DD00032A1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E58F568C1C41E6DD00032A1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E58F568F1C41E6DD00032A1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E58F56911C41E6DD00032A1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E58F56971C41E87600032A1E /* HallOfTheMountainKing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HallOfTheMountainKing.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E58F567F1C41E6DD00032A1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E58F56791C41E6DD00032A1E = {
+			isa = PBXGroup;
+			children = (
+				E58F56841C41E6DD00032A1E /* AVAudioPlayerTesOne */,
+				E58F56831C41E6DD00032A1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E58F56831C41E6DD00032A1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E58F56821C41E6DD00032A1E /* AVAudioPlayerTesOne.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E58F56841C41E6DD00032A1E /* AVAudioPlayerTesOne */ = {
+			isa = PBXGroup;
+			children = (
+				E58F56971C41E87600032A1E /* HallOfTheMountainKing.mp3 */,
+				E58F56851C41E6DD00032A1E /* AppDelegate.swift */,
+				E58F56871C41E6DD00032A1E /* ViewController.swift */,
+				E58F56891C41E6DD00032A1E /* Main.storyboard */,
+				E58F568C1C41E6DD00032A1E /* Assets.xcassets */,
+				E58F568E1C41E6DD00032A1E /* LaunchScreen.storyboard */,
+				E58F56911C41E6DD00032A1E /* Info.plist */,
+			);
+			path = AVAudioPlayerTesOne;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E58F56811C41E6DD00032A1E /* AVAudioPlayerTesOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E58F56941C41E6DD00032A1E /* Build configuration list for PBXNativeTarget "AVAudioPlayerTesOne" */;
+			buildPhases = (
+				E58F567E1C41E6DD00032A1E /* Sources */,
+				E58F567F1C41E6DD00032A1E /* Frameworks */,
+				E58F56801C41E6DD00032A1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVAudioPlayerTesOne;
+			productName = AVAudioPlayerTesOne;
+			productReference = E58F56821C41E6DD00032A1E /* AVAudioPlayerTesOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E58F567A1C41E6DD00032A1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Crokky Software Inc";
+				TargetAttributes = {
+					E58F56811C41E6DD00032A1E = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2AYC8HL58A;
+					};
+				};
+			};
+			buildConfigurationList = E58F567D1C41E6DD00032A1E /* Build configuration list for PBXProject "AVAudioPlayerTesOne" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E58F56791C41E6DD00032A1E;
+			productRefGroup = E58F56831C41E6DD00032A1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E58F56811C41E6DD00032A1E /* AVAudioPlayerTesOne */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E58F56801C41E6DD00032A1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58F56901C41E6DD00032A1E /* LaunchScreen.storyboard in Resources */,
+				E58F568D1C41E6DD00032A1E /* Assets.xcassets in Resources */,
+				E58F56981C41E87600032A1E /* HallOfTheMountainKing.mp3 in Resources */,
+				E58F568B1C41E6DD00032A1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E58F567E1C41E6DD00032A1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58F56881C41E6DD00032A1E /* ViewController.swift in Sources */,
+				E58F56861C41E6DD00032A1E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E58F56891C41E6DD00032A1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E58F568A1C41E6DD00032A1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E58F568E1C41E6DD00032A1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E58F568F1C41E6DD00032A1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E58F56921C41E6DD00032A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos9.2;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E58F56931C41E6DD00032A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E58F56951C41E6DD00032A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AVAudioPlayerTesOne/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crokky.AVAudioPlayerTesOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E58F56961C41E6DD00032A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AVAudioPlayerTesOne/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crokky.AVAudioPlayerTesOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E58F567D1C41E6DD00032A1E /* Build configuration list for PBXProject "AVAudioPlayerTesOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E58F56921C41E6DD00032A1E /* Debug */,
+				E58F56931C41E6DD00032A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E58F56941C41E6DD00032A1E /* Build configuration list for PBXNativeTarget "AVAudioPlayerTesOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E58F56951C41E6DD00032A1E /* Debug */,
+				E58F56961C41E6DD00032A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E58F567A1C41E6DD00032A1E /* Project object */;
+}
